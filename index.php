@@ -10,7 +10,6 @@
     <title>Pexo GameDev</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link href="theme.css" rel="stylesheet">
 </head>
 <body>

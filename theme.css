@@ -1,115 +1,128 @@
-body {
-    padding-top: 70px;
-    padding-bottom: 30px;
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body
+{
     font-family: 'Titillium Web', sans-serif !important;
-    margin: 15px;
-}
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+    font-size: 200%;
+
+    color: whitesmoke;
+    background-color: rgb(10,10,10);
+    margin: 3% 3% 3% 3%;
 }
 
-h1
+.index-menu-list, .index-menu-list a
 {
-    font-weight:lighter;
+    color: whitesmoke;
+    text-decoration-line: none;
+    list-style: none;
 }
-.skill-display
+
+.index-menu-list li:hover, .index-menu-list a:hover
 {
-    min-height:400px;
-    margin-bottom:0px;
+    color: black;
+    background-color: whitesmoke;
 }
 
-#disclaimer {
-    margin-top: 50px;
-    font-style: italic;
-    font-size: .65em;
-}
-
-.progress-indicator
+.logo-rotate
 {
-    height:150px;
-    width:150px;
-    margin:10px;
+    height: 200px;
+    width: 200px;
+    float: left;
 }
 
-.main {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    width: auto;
-}
-@media (min-width:768px) {
-    .main {
-        width: 750px
-    }
-}
-
-@media (min-width:992px) {
-    .main {
-        width: 970px
-    }
-}
-
-@media (min-width:1200px) {
-    .main {
-        width: 1170px
-    }
-}
-
-.welcome {
-    padding: 30px;
-    margin-bottom: 30px;
-    color: inherit;
-    background-color: #eee;
-    border-radius:10px;
-    border:1px black solid;
-}
-
-.full
+.nickname
 {
-    width:100%;
+    font-size: 125px;
 }
 
-.half
+.menu
 {
-    width:50%
+    width: 30%;
+    float: left;
 }
 
-.full, .half {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float:left;
+.main
+{
+    width: 65%;
+    float: left;
+
+
+    height: 100%;
+    margin-left: 3%;
+    padding: 15px 15px 15px 15px;
 }
 
-.header {
-    padding-bottom: 0px;
-    margin: 40px 0 20px;
-    border-bottom: 1.5px solid #000;
+.content
+{
+    margin-top: 250px;
+    background-color: rgba(127,127,127,0.05);
 }
 
-kbd {
-    font-family: monospace,monospace;
-    font-size: 1em;
-    padding: 2px 4px;
-    font-size: 90%;
-    color: #fff;
-    background-color: #333;
-    border-radius: 3px;
-    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
-    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25)
+.top
+{
+    text-align: right;
+    height: 100%;
+    width: 100%;
 }
 
-code, kbd, pre, samp {
-    font-family: Menlo,Monaco,Consolas,"Courier New",monospace
+.github:hover
+{
+    background-color: black;
+    filter: invert(100%);
+    border-radius: 15px;
+    animation: none !important;
 }
 
-code {
-    padding: 2px 4px;
-    font-size: 90%;
-    color: #c7254e;
-    background-color: #f9f2f4;
-    border-radius: 4px
+.linkedin
+{
+    height: 32px;
+    width: 32px;
+    filter:invert(100%);
+}
+
+.linkedin:hover
+{
+    filter:invert(0%);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.youtube
+{
+    height: 32px;
+    width: 32px;
+    filter: invert(100%);
+}
+
+.youtube:hover
+{
+    filter:invert(0%);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.cv
+{
+    height: 32px;
+    width: 32px;
+    filter: invert(100%);
+}
+
+.cv:hover
+{
+    filter:invert(0%);
+    background-color: white;
+}
+
+a
+{
+    text-decoration-line: none;
+    color:white;
+}
+
+.left:hover
+{
+background-color:black;
+filter: invert(100%);
 }
