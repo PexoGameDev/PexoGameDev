@@ -1,0 +1,115 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-family: 'Titillium Web', sans-serif !important;
+    margin: 15px;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+h1
+{
+    font-weight:lighter;
+}
+.skill-display
+{
+    min-height:400px;
+    margin-bottom:0px;
+}
+
+#disclaimer {
+    margin-top: 50px;
+    font-style: italic;
+    font-size: .65em;
+}
+
+.progress-indicator
+{
+    height:150px;
+    width:150px;
+    margin:10px;
+}
+
+.main {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
+@media (min-width:768px) {
+    .main {
+        width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .main {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .main {
+        width: 1170px
+    }
+}
+
+.welcome {
+    padding: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+    border-radius:10px;
+    border:1px black solid;
+}
+
+.full
+{
+    width:100%;
+}
+
+.half
+{
+    width:50%
+}
+
+.full, .half {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float:left;
+}
+
+.header {
+    padding-bottom: 0px;
+    margin: 40px 0 20px;
+    border-bottom: 1.5px solid #000;
+}
+
+kbd {
+    font-family: monospace,monospace;
+    font-size: 1em;
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #fff;
+    background-color: #333;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25)
+}
+
+code, kbd, pre, samp {
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px
+}
