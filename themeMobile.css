@@ -7,8 +7,8 @@ body
     font-size: 200%;
 
     color: whitesmoke;
-    background-color: rgb(10, 10, 10);
-    padding: 1% 1% 1% 1%;
+    /*background-color: rgb(10,10,10);*/
+    background-color: red;
     margin: 3% 3% 3% 3%;
 }
 
@@ -27,14 +27,14 @@ body
 
 .logo-rotate
 {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     float: left;
 }
 
 .nickname
 {
-    font-size: 125px;
+    font-size: 60px;
 }
 
 .menu
@@ -64,10 +64,10 @@ body
 {
     position: absolute;
     top:5%;
-    left:90%;
+    left:-5%;
     text-align: right;
-    height: 32px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
 }
 
 .github:hover
@@ -143,8 +143,14 @@ a
 
 .left img
 {
+    z-index: -10;
     transition: 0.2s;
-    margin-right: 35px;
+    
+}
+
+.left:hover img
+{
+    filter: invert();
 }
 
 #particles-js
@@ -155,9 +161,15 @@ a
     height: 90%;
 }
 
+.left:hover .logo
+{
+    contain: url("assets/graphics/logow.png");
+}
+
 .left h1 {
     position: relative;
     display: block;
+    cursor: pointer;
   }
   
   .left h1:before, .left h1:after {

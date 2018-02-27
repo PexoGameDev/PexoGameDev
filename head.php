@@ -4,5 +4,7 @@
         <meta name="author" content="Pexo">
         <link rel="icon" href="assets/graphics/logo.png">
         <title>Pexo GameDev</title>
-        <link href="theme.css" rel="stylesheet">
+        <link href="themeMobile.css" rel="stylesheet">
+        <link href="theme.css" media="screen and (min-width: 1625px)" rel="stylesheet">
+        
         <link href="animate.css" rel="stylesheet">
