@@ -24,11 +24,6 @@ body
     float: left;
 }
 
-.top
-{
-    right:200px;
-}
-
 .left h1 {
     position: relative;
     display: block;

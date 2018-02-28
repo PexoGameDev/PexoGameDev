@@ -1,10 +1,9 @@
-@media screen and (max-width: 1530px)
+@media screen and (max-width: 650px)
 {
 body
 {
     padding: 1% 1% 1% 1%;
     margin: 3% 3% 3% 3%;
-    min-width: 400px;
 }
 
 .logo
@@ -48,15 +47,11 @@ body
 }
 
 .timeline{
-    min-width: 400px;
+    width: 350px;
     float: left !important;
     top: 0px !important;
     right: 150px !important;
     transform: scale(1);
-}
-
-.timeline ul {
-  padding: 50px 0;
 }
 
 .timeline ul li {
@@ -135,10 +130,6 @@ time {
   visibility: hidden;
   opacity: 0;
   transition: all .5s ease-in-out;
-}
-
-.timeline ul li:nth-child(odd) div {
-  transform: translate3d(200px, 0, 0);
 }
 
 .timeline ul li:nth-child(even) div {

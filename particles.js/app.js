@@ -10,16 +10,19 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 /* Otherwise just put the config content (json): */
-
+var particlesAmount = 200;
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  particlesAmount = 30;
+ }
 particlesJS('particles-js',
-  
+
   {
     "particles": {
       "number": {
-        "value": 100,
+        "value": particlesAmount,
         "density": {
-          "enable": true,
-          "value_area": 800
+          "enable": false,
+          "value_area": 1000
         }
       },
       "color": {
@@ -32,7 +35,7 @@ particlesJS('particles-js',
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 5
+          "nb_sides": 12
         },
         "image": {
         }
@@ -48,7 +51,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 3,
+        "value": 2,
         "random": true,
         "anim": {
           "enable": false,
@@ -59,7 +62,7 @@ particlesJS('particles-js',
       },
       "line_linked": {
         "enable": true,
-        "distance": 150,
+        "distance": 200,
         "color": "#ffffff",
         "opacity": 0.4,
         "width": 1
@@ -70,7 +73,7 @@ particlesJS('particles-js',
         "direction": "none",
         "random": false,
         "straight": false,
-        "out_mode": "out",
+        "out_mode": "bounce",
         "attract": {
           "enable": false,
           "rotateX": 600,
@@ -89,7 +92,7 @@ particlesJS('particles-js',
           "enable": true,
           "mode": "repulse"
         },
-        "resize": true
+        "resize": false
       },
       "modes": {
         "grab": {
@@ -126,5 +129,4 @@ particlesJS('particles-js',
       "background_size": "cover"
     }
   }
-
 );
