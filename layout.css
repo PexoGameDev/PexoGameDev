@@ -1,0 +1,61 @@
+@media screen and (min-width: 1530px)
+{
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+.logo
+{
+    width: 150px;
+    height:150px;
+}
+
+.nickname
+{
+    font-size: 3em;
+}
+
+.menu
+{
+    position: fixed;
+    width: 25%;
+    float: left;
+}
+
+.top
+{
+    right:200px;
+}
+
+.left h1 {
+    position: relative;
+    display: block;
+  }
+  
+  .left h1:before, .left h1:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 20px;
+    top: 80%;
+    margin-top: -0.5px;
+    background: #fff;
+  }
+
+    .content
+    {
+        margin-right: -100px;
+    }
+  
+  .timeline ul li:nth-child(even) div {
+    left: -370px;
+  }
+  
+  .main
+  {
+    width: 70%;
+    float: right;
+  }
+}

@@ -1,15 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
 body
 {
     font-family: 'Titillium Web', sans-serif !important;
     font-size: 200%;
-
     color: whitesmoke;
     background-color: rgb(10, 10, 10);
-    padding: 0;
-    margin: 0;
+
+    max-width: 92%;
 }
 
 .index-menu-list, .index-menu-list a
@@ -27,20 +25,6 @@ body
 
 .logo
 {
-    height: 150px;
-    width: 150px;
-    float: left;
-}
-
-.nickname
-{
-    font-size: 3em;
-}
-
-.menu
-{
-    position: fixed;
-    width: 30%;
     float: left;
 }
 
@@ -48,7 +32,6 @@ body
 {
     position: absolute;
     top:15px;
-    right:200px;
     text-align: right;
     height: 32px;
     width: 200px;
@@ -90,19 +73,6 @@ body
     border-radius: 5px;
 }
 
-.cv
-{
-    height: 32px;
-    width: 32px;
-    filter: invert(100%);
-}
-
-.cv:hover
-{
-    filter:invert(0%);
-    background-color: white;
-}
-
 a
 {
     text-decoration-line: none;
@@ -134,25 +104,12 @@ a
 #particles-js
 {
     z-index: -10;
-    position: fixed;
+    position: fixed !important;
     width: 100%;
     height: 100%;
+    top: 5%;
+    left: 5%;
 }
-
-.left h1 {
-    position: relative;
-    display: block;
-  }
-  
-  .left h1:before, .left h1:after {
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 20px;
-    top: 80%;
-    margin-top: -0.5px;
-    background: #fff;
-  }
   
   .left h1:before {
     left: -2.5px;
@@ -271,10 +228,6 @@ a
     border-color: transparent #c33c33 transparent transparent;
   }
   
-  .timeline ul li:nth-child(even) div {
-    left: -370px;
-  }
-  
   .timeline ul li:nth-child(even) div::before {
     right: -15px;
     border-width: 8px 0 8px 16px;
@@ -315,32 +268,6 @@ a
     transform: none;
     visibility: visible;
     opacity: 1;
-  }
-  
-  @media screen and (max-width: 900px) {
-    .timeline ul li div {
-      width: 250px;
-    }
-    .timeline ul li:nth-child(even) div {
-      left: -289px;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .timeline ul li {
-      margin-left: 20px;
-    }
-    .timeline ul li div {
-      width: calc(100vw - 91px);
-    }
-    .timeline ul li:nth-child(even) div {
-      left: 45px;
-    }
-    .timeline ul li:nth-child(even) div::before {
-      left: -15px;
-      border-width: 8px 16px 8px 0;
-      border-color: transparent #F45B69 transparent transparent;
-    }
   }
 
 .link{
