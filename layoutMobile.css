@@ -19,6 +19,7 @@ body
 
 .menu
 {
+    position: relative !important;
     width: 330px;
 }
 
@@ -44,17 +45,16 @@ body
     position: relative;
     text-align: justify;
     width: 100%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .timeline{
-    margin-top: -700px;
     float: left;
     top: 0px;
-    right:0;
+    right:0px;
     position: relative;
-    transform: scale(0.66);
+    transform: scale(1);
 }
 
 .timeline ul {
@@ -83,11 +83,11 @@ body
 }
 
 .timeline ul li div {
-    font-size: 0.7em;
+ font-size: 0.7em;
   color: black;
   position: relative;
   bottom: 0;
-  width: 300px;
+  width: 300px !important;
   padding: 15px;
   background:#eeeeee;
 }
@@ -138,6 +138,7 @@ time {
 }
 
 .timeline ul li div {
+  width: 100%;
   visibility: hidden;
   opacity: 0;
   transition: all .5s ease-in-out;

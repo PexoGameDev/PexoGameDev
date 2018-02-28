@@ -22,6 +22,12 @@ body
     color: black;
     background-color: whitesmoke;
 }
+.menu
+{
+  width: 25%;
+  float: left;
+  position: relative;
+}
 
 .logo
 {
@@ -155,6 +161,7 @@ a
     {
         margin-top: 250px;
         background-color: rgba(127,127,127,0.1);
+        padding: 10px 10px 10px 10px;
         float: left;
 }
 
