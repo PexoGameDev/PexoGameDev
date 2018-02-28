@@ -76,7 +76,7 @@
                     <span title="There is No Game">I know that "There is no game" is actually a game.<br /></span>
                     <span title="Life is Strange">I know that Life is <s>Strange</s> so unfair.<br /></span>
                     <span title="Overwatch">I know that heroes never die.<br /></span>
-                    <span title="Dungeones & Dragons or Pathfinder">I know how to use 20 sided dice to kill goblin in 1337 ways.<br /></span>
+                    <span title="Dungeones \& Dragons or Pathfinder">I know how to use 20 sided dice to kill goblin in 1337 ways.<br /></span>
                     <span title="TES: Skyrim">I was an advernturer, just like everyone else, but then I took an arrow in the knee.<br /></span>
                     <span title="Starcraft II">I have heard already <b>a few</b> times that we require more minerals.<br /></span>
                     <span title="The Last of Us">Yes, I cried too during giraffe cutscene.<br /></span>

@@ -7,8 +7,8 @@ body
     font-size: 200%;
 
     color: whitesmoke;
-    /*background-color: rgb(10,10,10);*/
-    background-color: red;
+    background-color: rgb(10, 10, 10);
+    padding: 1% 1% 1% 1%;
     margin: 3% 3% 3% 3%;
 }
 
@@ -25,7 +25,7 @@ body
     background-color: whitesmoke;
 }
 
-.logo-rotate
+.logo
 {
     height: 100px;
     width: 100px;
@@ -34,40 +34,36 @@ body
 
 .nickname
 {
-    font-size: 60px;
+    font-size: 2em;
 }
 
 .menu
 {
-    width: 30%;
-    float: left;
+    width: 100%;
 }
 
 .main
 {
-    width: 65%;
-    float: left;
-
-
-    height: 100%;
+    width: 100%;
     margin-left: 3%;
-    padding: 15px 15px 15px 15px;
+    padding: 0px 15px 15px 15px;
 }
 
 .content
 {
-    margin-top: 250px;
+    padding: 0px 10px 10px 10px;
+    margin-top: 100px;
     background-color: rgba(127,127,127,0.05);
 }
 
 .top
 {
     position: absolute;
-    top:5%;
-    left:-5%;
+    top:15px;
+    right:100px;
     text-align: right;
-    height: 100%;
-    width: 100%;
+    height: 32px;
+    width: 200px;
 }
 
 .github:hover
@@ -143,14 +139,8 @@ a
 
 .left img
 {
-    z-index: -10;
     transition: 0.2s;
-    
-}
-
-.left:hover img
-{
-    filter: invert();
+    margin-right: 35px;
 }
 
 #particles-js
@@ -161,46 +151,149 @@ a
     height: 90%;
 }
 
-.left:hover .logo
+
+.half
 {
-    contain: url("assets/graphics/logow.png");
+    position: relative;
+    text-align: justify;
+    float: left;
+    width: 50%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
-.left h1 {
-    position: relative;
-    display: block;
-    cursor: pointer;
+.timeline{
+    position: relative !important;
+    transform: scale(0.66);
+}
+
+.timeline ul {
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left:50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+    font-size: 0.7em;
+  color: black;
+  position: relative;
+  bottom: 0;
+  width: 300px;
+  padding: 15px;
+  background:#eeeeee;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #c33c33 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -370px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #c33c33;
+}
+
+time {
+  color: black;
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.timeline ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #c33c33;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
   }
-  
-  .left h1:before, .left h1:after {
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 20px;
-    top: 80%;
-    margin-top: -0.5px;
-    background: #fff;
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
   }
-  
-  .left h1:before {
-    left: -2.5px;
+}
+
+@media screen and (max-width: 1530px) {
+  .timeline ul li {
+    margin-left: 20px;
   }
-  .left h1:after {
-    right: 2.5px;
-    background: #fff;
-    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  .timeline ul li div {
+    width: calc(100vw - 91px);
   }
-  
-  .left h1:hover:before {
-    background: #fff;
-    left:35%;
-    width: 60%;
-    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
   }
-  
-  .left h1:hover:after {
-    background: transparent;
-    left:35%;
-    width: 60%;
-    transition: 0s;
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
   }
+}
+
+.link{
+  color:#c33c33;
+  text-decoration:underline;
+}
