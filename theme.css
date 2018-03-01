@@ -3,11 +3,23 @@
 body
 {
     font-family: 'Titillium Web', sans-serif !important;
-    font-size: 200%;
+    font-size: 160%;
     color: whitesmoke;
     background-color: rgb(10, 10, 10);
 
     max-width: 92%;
+}
+
+ul
+{
+  list-style-type: none;
+  list-style-position: inside;
+}
+li:before {
+  content: "♢"; 
+  display: inline-block;
+  margin-left: -1.3em; 
+  width: 1.3em; 
 }
 
 .index-menu-list, .index-menu-list a
@@ -15,6 +27,10 @@ body
     color: whitesmoke;
     text-decoration-line: none;
     list-style: none;
+}
+.index-menu-list li:before
+{
+  content: ""; 
 }
 
 .index-menu-list li:hover, .index-menu-list a:hover
@@ -32,6 +48,17 @@ body
 .logo
 {
     float: left;
+}
+
+.nickname
+{
+padding-top: 30px;
+}
+
+.highlight
+{
+  color: #c33c33;
+  font-weight: bold;
 }
 
 .top
@@ -153,6 +180,7 @@ a
 
     .main
     {
+        font-size: 75% !important;
         width: 70%;
         float: right;
     }
@@ -174,26 +202,28 @@ a
   }
 
   .timeline{
+      font-size: 175%;
       position: relative !important;
-      top: -1000px;
+      top: -1100px;
       right: 250px;
       float: right;
       transform: scale(0.66);
   }
 
   .timeline ul {
-    padding: 50px 0;
+    padding: 0;
   }
   
   .timeline ul li {
     list-style-type: none;
     position: relative;
-    width: 6px;
+    width: 3px;
     margin: 0 auto;
-    padding-top: 50px;
     background: #fff;
   }
   
+  .timeline ul li:before {content: "";}
+
   .timeline ul li::after {
     content: '';
     position: absolute;
@@ -207,11 +237,11 @@ a
   }
   
   .timeline ul li div {
-      font-size: 0.7em;
+    font-size: 0.7em;
     color: black;
     position: relative;
     bottom: 0;
-    width: 200px;
+    width: 300px;
     padding: 15px;
     background:#eeeeee;
   }

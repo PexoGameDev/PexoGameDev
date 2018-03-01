@@ -24,31 +24,60 @@
 
 <div class="main">
     <div class="content">
-        <h3>#WhoAmI?</h3>
+        <h2>#WhoAmI?</h2>
+        <div class="half">
+            <i style="font-size:75%">TL;DR; I live in Poland and I make games</i><br><br>
+    <p class="highlight" style="font-size:150%; text-align: center; margin-top:0px"> My goal is to make people heroes of their own stories. </p>
+  Today's world is a formidable place. Way too often we struggle with stress, fear or low self-confidence. Not many of us feel like they are in control of their lives.
+  <p class="highlight">I belive that this has to change.</p>
+  I decided <u>my mission</u> will be to make the world a brighter, better, less scary place. And I hope to achive that by developing games that will be something more than just a way to kill some time. I want to:<br>
+<ul>
+  <li>Build charming worlds into which others could dive, forgetting about daily problems and struggles</li>
+  <li>Bring to life unique, true characters with deep, real personalities to which people could relate.</li>
+  <li>Orchestrate great scenes which would bring smiles upon players' faces and remain with them for a long time.</li>
+</ul>
+<hr>
+<p>
+  <span style="font-size: 2em">Anyways...</span> where are my manners? Let me introduce myself. My name is <span class="highlight">Owczarz Patryk</span>, much more often known as  <span class="highlight">Pexo</span>. 
+  I live in Poland, and I am just about to finish high school.</p><p> I proudly represent a healthy mix of geekiness and nerdiness in one person. What does that mean? Well... 
+  My hobbies include, but are not limited to: <span class="highlight">self-development, psychology, computer science, artificial inteligence, quantum physics, neuroscience; Pen&Paper RPGs, character design, story writing and giving speeches.</span>  
+</p>
+<p>
+  Obviously, except for all mentioned above I'm <s>also intrested in</s> passionate about <span class="highlight">game development, game design (primarily character design), AI and gameplay programming and basically everything that relates to game development or games themselves.</span>
+</p>
+<p>
+  Also I always wear hoodies, I love t-shirts with witty printings, my favourite animals are squirells and hamsters, my favourite food is sushi and, fun fact, sometimes I'm funny... No, really!
+</p>
+<hr>
+  <h2 class="highlight" style="margin-bottom:10px">But first of all - I am a gamer</h2>
+  <span title="Portal">I know that cake is a lie.</span><br />
+  <span title="Magicka">I know that a secret word is a BANNANA.</span><br />
+  <span title="Well... Half-Life">I know that Half-Life 3 is confirmed.<br /></span>
+  <span title="Heavy Rain">I know who's the Origami Killer.<br /></span>
+  <span title="That's Konami code!">I know the <b> &#129145; &#129145; &#129147; &#129147; &#129144; &#129146; &#129144; &#129146; BA [start]</b> code.<br /></span>
+  <span title="There is No Game">I know that "There is no game" is actually a game.<br /></span>
+  <span title="Life is Strange">I know that Life is <s>Strange</s> so unfair.<br /></span>
+  <span title="Overwatch">I know that heroes never die.<br /></span>
+  <span title="Dungeones & Dragons or Pathfinder">I know how to use 20 sided dice to kill goblin in 1337 ways.<br /></span>
+  <span title="TES: Skyrim">I was an advernturer, just like everyone else, but then I took an arrow in the knee.<br /></span>
+  <span title="Starcraft II">I have heard already <b>a few</b> times that we require more minerals.<br /></span>
+  <span title="Basically every shooter ever">Ammo 199/200? Time to reload.</span><br /><br />
+  <span title="Did you find hidden titles? ;)">Eeyup. That's all me.</span><br>
+  <i style="font-size:0.75em">Someday I'll post here a list of my favourite games here, but today is not that day.</i>
+<hr>
 
-
-<div class="half">
-abc aba abc abc aba abc abc aba abc abc 
-aba abc abc aba abc abc aba abc abc aba 
-abc abc aba abc abc aba abc abc aba abc 
-abc aba abc abc aba abc abc aba abc abc
-aba abc abc aba abc abc aba abc abc aba
-abc abc aba abc abc aba abc abc aba abc 
-abc aba abc abc aba abc abc aba abc abc 
-aba abc abc aba 
-abc abc aba abc abc aba abc abc aba abc 
-abc aba abc abc aba abc abc aba abc abc
-aba abc abc aba abc abc aba abc abc aba
-abc abc aba abc abc aba abc abc aba abc abc aba abc abc
-aba abc abc aba abc abc aba abc abc aba
-abc abc aba abc 
 </div>
 
 <section class="timeline">
 <ul>
+<li>
+    <div>
+      <time class="highlight">Hey look!</time> Here is my "CV" on a cool timeline. Pretty impressive, huh?
+    </div>
+  </li>
   <li>
     <div>
-      <time>1998</time> Starcraft, Baldur's Gate, Half-Life and I were all born the same year.
+      <time>1998</time> Starcraft, Baldur's Gate, <br>Half-Life and I were all born the same year.
     </div>
   </li>
   <li>
@@ -113,7 +142,7 @@ abc abc aba abc
   </li>
   <li>
     <div>
-      <time>2016</time> I move to Sweden for 3 months so I can hone my english.
+      <time>2016</time> I move to Sweden for 3 months so I can hone my english. ;)
     </div>
   </li>
   <li>
