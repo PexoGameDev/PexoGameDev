@@ -89,7 +89,7 @@
 
         </div>
         <div class="third">
-            
+
         <div class="project">
                 <div class="cover">
                 <img src="assets/graphics/covers/lw.jpg">

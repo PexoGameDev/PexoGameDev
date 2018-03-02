@@ -133,7 +133,6 @@ position: relative;
 }
 
 .morebutton {
-/*transform: translate(157px,20px);*/
 bottom: 12px;
 right: 11px;
 background: #C33C33;
@@ -163,47 +162,4 @@ background-image: -o-linear-gradient(top, #000000, #262626);
 background-image: linear-gradient(to bottom, #000000, #262626);
 text-decoration: none;
 border: solid #000000 1px;
-}
-
-.tagbar
-{
-    color:black;
-    z-index: 10;
-    position: absolute;
-    top:65px;
-    width: 93%;
-    padding: 2px;
-}
-
-.tag
-{
-    width: 15%;
-    margin-left: -2.5px;
-    margin-right: 5px;
-    border-radius: 5px;
-    height: 20px;
-    padding: 1px;
-    font-size: 14px;
-    float: left;
-    text-align: center;
-}
-
-.red 
-{
-    background: rgb(233, 51, 38);
-}
-
-.green 
-{
-    background: rgb(54, 214, 39);
-}
-
-.yellow 
-{
-    background: rgb(218, 171, 17);
-}
-
-.lightblue 
-{
-    background: rgb(21, 195, 218);
 }
