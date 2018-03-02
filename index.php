@@ -24,7 +24,7 @@
 
 <div class="main">
     <div class="content">
-        <h2>#WhoAmI?</h2>
+        <h2 style="margin:0">Who Am I?</h2>
         <div class="half">
             <i style="font-size:75%">TL;DR; I live in Poland and I make games</i><br><br>
     <p class="highlight" style="font-size:150%; text-align: center; margin-top:0px"> My goal is to make people heroes of their own stories. </p>
@@ -43,7 +43,7 @@
   My hobbies include, but are not limited to: <span class="highlight">self-development, psychology, computer science, artificial inteligence, quantum physics, neuroscience; Pen&Paper RPGs, character design, story writing and giving speeches.</span>  
 </p>
 <p>
-  Obviously, except for all mentioned above I'm <s>also intrested in</s> passionate about <span class="highlight">game development, game design (primarily character design), AI and gameplay programming and basically everything that relates to game development or games themselves.</span>
+  Obviously, except for all mentioned above I'm <s>also intrested in</s> passionate about <span class="highlight">game development, game design (primarily character design), AI and gameplay programming</span> and basically everything that relates to game development or games themselves.
 </p>
 <p>
   Also I always wear hoodies, I love t-shirts with witty printings, my favourite animals are squirells and hamsters, my favourite food is sushi and, fun fact, sometimes I'm funny... No, really!

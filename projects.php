@@ -24,7 +24,7 @@
 
 <div class="main">
     <div class="content">
-        <h2 style="margin:0"> My Projects </h2>
+        <h2 style="margin:0"> What have I worked on? </h2>
         <div class="third">
 
         <div class="project">
@@ -75,31 +75,6 @@
                     <a href="/project/nn.php" class="morebutton">More ►</a>
                 </div>
             </div>
-
-            <div class="project">
-                <div class="cover" style="background:black">
-                <img src="assets/graphics/covers/si.jpg">
-                    <h3 class="label">Space Invaders CMD</h3>
-                </div>
-                <div class="desc">
-                    Very simple Space Invaders clone in CMD
-                    <a href="/project/blinky.php" class="morebutton">More ►</a>
-                </div>
-            </div>
-
-        </div>
-        <div class="third">
-
-        <div class="project">
-                <div class="cover">
-                <img src="assets/graphics/covers/lw.jpg">
-                    <h3 class="label">Light Way</h3>
-                </div>
-                <div class="desc">
-                    3D, isometric, survival shooter for Android.
-                    <a href="/project/lightway.php" class="morebutton">More ►</a>
-                </div>
-            </div>
             <div class="project">
                 <div class="cover">
                 <img src="assets/graphics/covers/tsms.jpg">
@@ -108,6 +83,40 @@
                 <div class="desc">
                     Stealth, hide&seek, AI playground.
                     <a href="/project/theystolemystuff.php" class="morebutton">More ►</a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="cover" style="background:black">
+                <img src="assets/graphics/covers/si.jpg">
+                    <h3 class="label">Space Invaders CMD</h3>
+                </div>
+                <div class="desc">
+                    Very simple Space Invaders clone in CMD
+                    <a href="/project/si.php" class="morebutton">More ►</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="third">
+
+        <div class="project">
+                <div class="cover">
+                <img src="assets/graphics/covers/l1617.jpg">
+                    <h3 class="label">Lublin 1617</h3>
+                </div>
+                <div class="desc">
+                    Point'n'click adventure about mystical history of Lublin city.
+                    <a href="/project/l1617.php" class="morebutton">More ►</a>
+                </div>
+            </div>
+        <div class="project">
+                <div class="cover">
+                <img src="assets/graphics/covers/lw.jpg">
+                    <h3 class="label">Light Way</h3>
+                </div>
+                <div class="desc">
+                    3D, isometric, survival shooter for Android.
+                    <a href="/project/lightway.php" class="morebutton">More ►</a>
                 </div>
             </div>
 

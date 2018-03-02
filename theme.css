@@ -188,7 +188,7 @@ a
     .content
     {
         margin-top: 250px;
-        background-color: rgba(127,127,127,0.1);
+        background-color: rgba(32,32,32,0.5);
         padding: 10px 10px 10px 10px;
         float: left;
 }
@@ -317,4 +317,13 @@ a
 .link{
     color:#c33c33;
     text-decoration:underline;
+}
+
+.project-link
+{
+  text-decoration: underline;
+}
+.project-link:hover
+{
+  color: #cc3333;
 }
