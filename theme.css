@@ -201,6 +201,13 @@ a
       width: 50%;
   }
 
+  .third
+  {
+      position: relative;
+      float: left;
+      width: 33%;
+  }
+
   .timeline{
       font-size: 175%;
       position: relative !important;
