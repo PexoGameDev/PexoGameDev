@@ -26,15 +26,20 @@
     <div class="content">
         <h2 style="margin:0">So what can I do?</h2>
             <p>
-                Right now the closest role describtion for me is simply "Game Developer" because I take care of everything.<br>
+                Right now the closest term to describe me is simply "Game Developer" because I take care of everything.<br>
+                I'm mostly a programmer but I admit that my favourite part of game development is the process of designing (everything: characters, quests, story, worlds).<br>
+                My dream role in team would to be exactly in the middle of being both a programmer and a designer.
                 <h3 style="margin:0; text-decoration:underline" class="">Programming</h3>
-                ♢ My main skill is programming. For nearly two years now I am working with <span class="highlight">Unity3D</span> game engine, using <span class="highlight">C#</span> language and this is my go-to toolset.
+                ♢ For nearly two years now I am working with <span class="highlight">Unity3D</span> game engine, using <span class="highlight">C#</span> language and this is my go-to toolset.
                 <br>
                 ♢ My favourite branches of game-dev programming are both <span class="highlight">gameplay programming</span> and <span class="highlight">AI programming</span>, and I love to work on either.
                 <br>
                 ♢ I wrote some non-Unity C# code, like project Euler exercises or very small Invoice program with databases but I ain't no pro.
                 <br>
                 ♢ I also have some basic knowladge of <span class="highlight">C++</span> (I <i>tried</i> to write some clone of <a class="project-link" href="http://pexogamedev.pl/project/si.php">Space Invaders in CMD</a> using it).
+                <br><br>
+                <h3 style="margin:0; text-decoration:underline" class="">Design & Soft Skills</h3>
+                ♢ I have been a game master for Pen&Paper RPG tabletop games for over 4 years so I have some skill in <span class="highlight">characters, quests and story design</span> as well as in <span class="highlight">working with a group</span>.
                 <br><br>
                 <h3 style="margin:0; text-decoration:underline" class="">Version Control</h3>
                 ♢ If you haven't already, I recommend you to take a look at my <a class="project-link" href="http://github.com/pexogamedev">GitHub profile</a>. I belive its existance confirms that I also can use <span class="highlight">git version control</span>.
@@ -44,9 +49,6 @@
                 <br><br>
                 <h3 style="margin:0; text-decoration:underline" class="">Databases</h3>
                 ♢ I created an online private galleries system with administrator's panel and it required a lot of fiddling with databases so I have some CRUDe (get it?) knowladge about <span class="highlight">SQL & MySQL </span>
-                <br><br>
-                <h3 style="margin:0; text-decoration:underline" class="">Design & Soft Skills</h3>
-                ♢ I have been a dungeon master for Pen&Paper RPG tabletop games for over 4 years, so I have some skill in <span class="highlight">characters, quests and story design</span> as well as in <span class="highlight">working with a group</span>.
                 <br><br>
                 <h3 style="margin:0; text-decoration:underline" class="">Graphics and Video Editing</h3>
                 ♢ While working on <a href="http://pexogamedev.pl/project/nn.php" class="project-link">Neon Nebula</a>, my first finished game, I had to deal with creating sprites for the game so I learned 

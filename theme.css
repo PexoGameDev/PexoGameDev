@@ -187,6 +187,7 @@ a
 
     .content
     {
+        width:100%;
         margin-top: 250px;
         background-color: rgba(32,32,32,0.5);
         padding: 10px 10px 10px 10px;
