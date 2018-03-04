@@ -24,21 +24,22 @@
 
 <div class="main">
     <div class="content">
-        <h2 style="margin:0">Blinky</h2>
-        <h4 style="margin:5px">Arcade "game" with audio visualizer for Android. </h4>
+        <h2 style="margin:0">They Stole My Stuff</h2>
+        <h4 style="margin:5px">Stealth-like, hide&seek AI playground. </h4>
         
         <div class="tagbar">
             <div class="tag">Unity</div>
+            <div class="tag">AI</div>
             <div class="tag">Prototype</div>
-            <div class="tag">Project Suspended</div>
+            <div class="tag">Project Canceled</div>
         </div>
         <br><hr>
 
         <p>
-        <img src="../assets/graphics/covers/blinky.jpg" class="project-cover">
+        <img src="../assets/graphics/covers/tsms2.jpg" class="project-cover">
         <h3 style="margin:0">Links:</h3>
         <ul style="margin:0px">
-            <li><a class="project-link" href="http://github.com/pexogamedev/blinky">GitHub code Repository</a></li>
+            <li><a class="project-link" href="http://github.com/pexogamedev/theystolemystuff">GitHub code Repository</a></li>
         </ul>
         </p><hr>
 
@@ -47,28 +48,30 @@
         <li>Unity3D</li>
         <li>C#</li>
         <li>Git & GitHub</li>
-        <li><a href="https://www.youtube.com/channel/UCBefBxNTPoNCQBU_Lta6Nvg" class="project-link">Some Neffex's music</a></li>
+        <li>Blender</li>
         </ul><hr>
 
         <h3 style="margin:0px">What did I learn:</h3>
         <ul style="margin:0px">
-        <li>Using #region statements (I fell in love with them, I admit).</li>
-        <li>Using audio sources and their properties</li>
-        <li>Extracting samples from sound file</li>
-        <li>Line Renderers</li>
-        <li>Scanning mobile device memory (Although I got stuck at struggling with getting persmissions trough manifest)</li>
+        <li>Basics of git version control and GitHub</li>
+        <li>Enumerators</li>
+        <li>Layers</li>
+        <li>Very basic 3D modeling</li>
+        <li>Basics of AI and pathfinding</li>
         </ul><hr>
 
         <h3 style="margin:0px">Tips & Tricks for less advanced people:</h3>
         <ul style="margin:0px">
-        <li class="highlight">It's extremely important to keep using proper naming conventions and to write code that's readable and clean.</li>
-        <li>Samples' data from sound files can be used as a seed for Random class.</li>
-        <li>Unity can be used not for games only (although it may not be the best option available).</li>
+        <li class="highlight">Set up a GitHub account and share your code, even if it's not good. Actually especially when it's not good.</li>
+        <li>Lists can posibbly be used to randomize a set of combinations of objects/numbers without repetitions.</li>
+        <li>Don't use meshes to detect player in sight. Learn raycasts instead.</li>
         </ul><hr>
 
         <h3 style="margin:0px">Devlog:</h3>
         <p style="margin:0px">
-           I planned to make an arcade game with obstacles player would have to dodge (I'd either use dashing or blinking[hence "Blinky"] movement mechanisms) in which obstacles would be "randomized" but based on seed from audio samples. This way every song would have it's own "map".
+            On the first I was going to turn it into full fledged game, but I quickly realized that it'd require way too much of toying with 3D modeling than I was willing to do.<br>
+            Instead of making a game I decided to just toy with AI, some simple animations and detecting player in certain cases. 
+            I even designed some simple patrol system with few diffrent states of guards like Idle, Patroling, OnAlert and ChasingPlayer. Guards in diffrent states acted diffrently.
         </p>
     </div>
 </div>

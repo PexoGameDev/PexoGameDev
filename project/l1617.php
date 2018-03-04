@@ -48,6 +48,7 @@
         <li>C#</li>
         <li>Adventure Creator</li>
         <li>ICode</li>
+        <li>Git & GitHub</li>
         <li>Trello</li>
         </ul><hr>
 

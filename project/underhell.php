@@ -28,7 +28,7 @@
         <h4 style="margin:5px">Rougelike, side-scrolling, action game. </h4>
         
         <div class="tagbar">
-        <div class="tag">Side-scroller</div>
+        <div class="tag">Desktop</div>
         <div class="tag">Unity</div>
         <div class="tag">Work In Progress</div>
         <div class="tag">Team Project</div>

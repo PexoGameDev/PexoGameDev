@@ -28,7 +28,9 @@
         <h4 style="margin:5px">Classic, 2D, arcade, neon space-shooter.</h4>
         
         <div class="tagbar">
-        <div class="tag">2D</div>
+        <div class="tag">Mobile</div>
+        <div class="tag">Web</div>
+        <div class="tag">Desktop</div>
         <div class="tag">Unity</div>
         <div class="tag">Playable</div>
         <div class="tag">Finished [June 2017]</div>
