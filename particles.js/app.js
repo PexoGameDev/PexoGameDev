@@ -11,8 +11,11 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 var particlesAmount = 50;
+var particlesDistance = 200;
+
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   particlesAmount = 30;
+  particlesDistance = 100;
  }
 particlesJS('particles-js',
 
@@ -62,7 +65,7 @@ particlesJS('particles-js',
       },
       "line_linked": {
         "enable": true,
-        "distance": 300,
+        "distance": particlesDistance,
         "color": "#ffffff",
         "opacity": 0.4,
         "width": 1

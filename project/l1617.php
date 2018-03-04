@@ -38,7 +38,7 @@
         <img src="../assets/graphics/covers/l16172.jpg" class="project-cover">
         <h3 style="margin:0">Links:</h3>
         <ul style="margin:0px">
-            <li style="padding-left:2em"><a class="project-link" href="bit.ly/l1617">Project's fanpage</a></li>
+            <li style="padding-left:2em"><a class="project-link" href="https://www.facebook.com/Lublin-1617-gra-komputerowa-411574355652954/">Project's fanpage</a></li>
         </ul>
         </p><hr>
 
