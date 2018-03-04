@@ -8,4 +8,4 @@
         <link href="../layoutMobileMini.css" rel="stylesheet">
         <link href="../layoutMobile.css" media="screen and (min-width: 650px)" rel="stylesheet">
         <link href="../layout.css" media="screen and (min-width: 1530px)" rel="stylesheet">
-        <link href=".//animate.css" rel="stylesheet">
+        <link href="../animate.css" rel="stylesheet">

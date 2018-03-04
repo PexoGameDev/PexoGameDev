@@ -10,7 +10,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 /* Otherwise just put the config content (json): */
-var particlesAmount = 200;
+var particlesAmount = 50;
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   particlesAmount = 30;
  }
@@ -35,7 +35,7 @@ particlesJS('particles-js',
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 12
+          "nb_sides": 3
         },
         "image": {
         }
@@ -62,7 +62,7 @@ particlesJS('particles-js',
       },
       "line_linked": {
         "enable": true,
-        "distance": 200,
+        "distance": 300,
         "color": "#ffffff",
         "opacity": 0.4,
         "width": 1

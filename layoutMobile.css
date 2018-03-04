@@ -298,3 +298,13 @@ position: relative;
     }
   }
 }
+
+@media screen and (max-width:870px)
+{
+  .project-cover
+  {
+    width: 100%;
+    height: auto;
+    
+  }
+}

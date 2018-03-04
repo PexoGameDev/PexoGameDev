@@ -322,11 +322,12 @@ a
 
 .project-link
 {
+  color:#c33c33;
   text-decoration: underline;
 }
 .project-link:hover
 {
-  color: #cc3333;
+  color: white;
 }
 
 .tag
@@ -342,4 +343,13 @@ a
   border: 2px black solid;
   color:black;
   background: white;
+}
+
+.project-cover
+{
+  max-width:100%; 
+  height:400px;
+  float:right;
+  margin-left:5px;
+  margin-right:5px;
 }

@@ -250,4 +250,15 @@ position: relative;
   text-decoration: none;
   border: solid #000000 1px;
   }
+
+  .tag
+  {
+    float: left;   
+    position: relative;
+  }
+
+.tagbar
+{
+  height: 2em;
+}
 }

@@ -24,105 +24,81 @@
 
 <div class="main">
     <div class="content">
-        <h2 style="margin:0"> What have I worked on? </h2>
+        <h2 style="margin:0"> What have I worked on?<i style="float:right;font-size:0.4em; margin-bottom:10px;"># = chronological order </i></h2>
         <div class="third">
 
-        <div class="project animated pulse infinite">
-                <div class="cover">
+        <div class="project animated flash">
+            <div class="cover">
                 <img src="assets/graphics/covers/uh.png">
-                    <h3 class="label">Underhell</h3>
-                </div>
-                <div class="desc">
-                    Rouglike platformer set in The Hell.
-                    <a href="project/underhell.php" class="morebutton">More ►</a>
-                </div>
+                <h3 class="label">#6 Underhell</h3>
             </div>
+            <div class="desc">
+                Rouglike platformer set in The Hell.
+                <a href="project/underhell.php" class="morebutton">More ►</a>
+            </div>
+        </div>
             
-            <div class="project">
-                <div class="cover">
+        <div class="project">
+            <div class="cover">
                 <img src="assets/graphics/covers/blinky.jpg">
-                    <h3 class="label">Blinky</h3>
-                </div>
-                <div class="desc">
-                    Android arcade game with audio visualizer.
-                    <a href="project/blinky.php" class="morebutton">More ►</a>
-                </div>
+                <h3 class="label">#4 Blinky</h3>
             </div>
-
-            <div class="project">
-                <div class="cover">
-                    <img src="assets/graphics/covers/nn.jpg">
-                    <h3 class="label">Neon Nebula</h3>
-                    
-                </div>
-                <div class="desc">
-                    Classic, 2D, Arcade, Neon <br>Space-shooter!
-                    <a href="project/nn.php" class="morebutton">More ►</a>
-                </div>
+            <div class="desc">
+                Android arcade game with audio visualizer.
+                <a href="project/blinky.php" class="morebutton">More ►</a>
             </div>
-
-            
+        </div>
 
         </div>
         <div class="third">
 
         <div class="project">
-                <div class="cover">
+            <div class="cover">
                 <img src="assets/graphics/covers/l1617.jpg">
-                    <h3 class="label">Lublin 1617</h3>
-                </div>
-                <div class="desc">
-                    Point'n'click adventure about mystical history of Lublin city.
-                    <a href="project/l1617.php" class="morebutton">More ►</a>
-                </div>
+                <h3 class="label">#3 Lublin 1617</h3>
             </div>
-        <div class="project">
-                <div class="cover">
-                <img src="assets/graphics/covers/lw.jpg">
-                    <h3 class="label">Light Way</h3>
-                </div>
-                <div class="desc">
-                    3D, isometric, survival shooter for Android.
-                    <a href="project/lightway.php" class="morebutton">More ►</a>
-                </div>
+            <div class="desc">
+                Point'n'click adventure about mystical history of Lublin city.
+                <a href="project/l1617.php" class="morebutton">More ►</a>
             </div>
+        </div>
 
-            <div class="project">
-                <div class="cover">
-                <img src="assets/graphics/covers/td.jpg">
-                    <h3 class="label">Tower Defense Prototype</h3>
-                </div>
-                <div class="desc">
-                    Prototype of tower defense game. 
-                    <a href="project/blinky.php" class="morebutton">More ►</a>
-                </div>
+        <div class="project">
+            <div class="cover">
+                <img src="assets/graphics/covers/lw.jpg">
+                <h3 class="label">#5 Light Way</h3>
             </div>
+            <div class="desc">
+                3D, isometric, survival shooter for Android.
+                <a href="project/lightway.php" class="morebutton">More ►</a>
+            </div>
+        </div>
 
         </div>
         <div class="third">
 
         <div class="project">
-                <div class="cover">
-                <img src="assets/graphics/covers/tsms.jpg">
-                    <h3 class="label">They Stole My Stuff</h3>
-                </div>
-                <div class="desc">
-                    Stealth, hide&seek, AI playground.
-                    <a href="project/theystolemystuff.php" class="morebutton">More ►</a>
-                </div>
+            <div class="cover">
+                <img src="assets/graphics/covers/nn.jpg">
+                <h3 class="label">#1 Neon Nebula</h3>
             </div>
-            <div class="project">
-                <div class="cover" style="background:black">
-                <img src="assets/graphics/covers/si.jpg">
-                    <h3 class="label">Space Invaders CMD</h3>
-                </div>
-                <div class="desc">
-                    Very simple Space Invaders clone in CMD
-                    <a href="project/si.php" class="morebutton">More ►</a>
-                </div>
+            <div class="desc">
+                Classic, 2D, Arcade, Neon <br>Space-shooter!
+                <a href="project/nn.php" class="morebutton">More ►</a>
             </div>
-
         </div>
+
+        <div class="project">
+            <div class="cover">
+                <img src="assets/graphics/covers/tsms.jpg">
+                <h3 class="label">#2 They Stole My Stuff</h3>
+            </div>
+            <div class="desc">
+                Stealth, hide&seek, AI playground.
+                <a href="project/theystolemystuff.php" class="morebutton">More ►</a>
+            </div>
+        </div>
+
     </div>
 </div>
 
@@ -139,6 +115,7 @@
                 {
                     covers[i].classList.remove("moved");
                     descs[i].classList.remove("moved");
+                    
                     descs[i].classList.add("reseted");
                     covers[i].classList.add("reseted");
                 }
@@ -146,6 +123,7 @@
                 {
                     covers[i].classList.remove("reseted");
                     descs[i].classList.remove("reseted");
+                    
                     covers[i].classList.add("moved");
                     descs[i].classList.add("moved");
                 }
