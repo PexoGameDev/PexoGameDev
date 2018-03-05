@@ -1,1 +1,30 @@
 AddHandler application/x-httpd-php56 .php
+
+RewriteEngine On
+
+RewriteRule ^contact/$ contact.php 
+RewriteRule ^contact$ contact.php 
+
+RewriteRule ^projects/$ projects.php
+RewriteRule ^projects$ projects.php
+
+RewriteRule ^skills/$ skills.php
+RewriteRule ^skills$ skills.php
+
+RewriteRule ^neonnebula/$ project/nn.php
+RewriteRule ^neonnebula$ project/nn.php
+
+RewriteRule ^underhell/$ project/underhell.php
+RewriteRule ^underhell$ project/underhell.php
+
+RewriteRule ^lublin1617/$ project/lublin1617.php
+RewriteRule ^lublin1617$ project/l1617.php
+
+RewriteRule ^lightway/$ project/lightway.php
+RewriteRule ^lightway$ project/lightway.php
+
+RewriteRule ^theystolemystuff/$ theystolemystuff.php
+RewriteRule ^theystolemystuff$ project/theystolemystuff.php
+
+RewriteRule ^blinky/$ project/blinky.php
+RewriteRule ^blinky$ project/blinky.php
