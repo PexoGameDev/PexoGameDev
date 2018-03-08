@@ -5,8 +5,8 @@ RewriteEngine On
 RewriteRule ^contact/$ contact.php 
 RewriteRule ^contact$ contact.php 
 
-RewriteRule ^projects/$ projects.php
-RewriteRule ^projects$ projects.php
+RewriteRule ^whoami/$ whoami.php
+RewriteRule ^whoami$ whoami.php
 
 RewriteRule ^skills/$ skills.php
 RewriteRule ^skills$ skills.php
@@ -22,6 +22,9 @@ RewriteRule ^lublin1617$ project/l1617.php
 
 RewriteRule ^lightway/$ project/lightway.php
 RewriteRule ^lightway$ project/lightway.php
+
+RewriteRule ^downloads/NeonNebula1.15.zip$ project/downloads/NeonNebula1.15.zip
+RewriteRule ^downloads/NeonNebulaMobile1.19.apk$ project/downloads/NeonNebulaMobile1.19.apk
 
 RewriteRule ^theystolemystuff/$ theystolemystuff.php
 RewriteRule ^theystolemystuff$ project/theystolemystuff.php

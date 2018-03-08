@@ -26,11 +26,7 @@
     <div class="content">
         <h2 style="margin:0">So what can I do?</h2>
             <p>
-                Right now the closest term to describe me is simply "Game Developer" because I take care of everything.<br>
-                I'm mostly a programmer but I admit that my favourite part of game development is the process of designing (everything: characters, quests, story, worlds).<br>
-                My dream role in team would to be exactly in the middle of being both a programmer and a designer.
-
-                <h3 style="margin:0; text-decoration:underline" class="">Programming</h3>
+              <h3 style="margin:0; text-decoration:underline" class="">Programming</h3>
                 ♢ For nearly two years now I am working with <span class="highlight">Unity3D</span> game engine, using <span class="highlight">C#</span> language and this is my go-to toolset.
                 <br>
                 ♢ My favourite branches of game-dev programming are both <span class="highlight">gameplay programming</span> and <span class="highlight">AI programming</span>, and I love to work on either.
@@ -45,11 +41,11 @@
                 <br><br>
 
                 <h3 style="margin:0; text-decoration:underline" class="">Languages</h3>
-                ♢ I can mumble something in my <span class="highlight">native polish</span> language.
+                ♢ I can mumble something in my <span class="highlight">native Polish</span> language.
                 <br>
-                ♢ I also am pretty <span class="highlight">advanced in english</span>, both in writing and speech. 
+                ♢ I also am pretty <span class="highlight">advanced in English</span>, both in writing and speech. 
                 <br>
-                ♢ I even have some <span class="highlight">elementary</span> knowladge of <span class="highlight">japanese</span>.
+                ♢ I even have some <span class="highlight">elementary</span> knowladge of <span class="highlight">Japanese</span>.
                 <br><br>
 
                 <h3 style="margin:0; text-decoration:underline" class="">Design & Soft Skills</h3>
