@@ -40,7 +40,7 @@
         <img src="../assets/graphics/covers/nn2.jpg" class="project-cover">
         <h3 style="margin:0">Links:</h3>
         <ul style="margin:0px">
-            <li class="animated flash infinite"><a class="project-link" href="http://pexogamedev.pl/neonnebula">Playable web version</a></li>
+            <li class="animated flash infinite"><a class="project-link" href="http://pexogamedev.pl/neonnebula/index.html">Playable web version</a></li>
             <li><a class="project-link" href="http://github.com/pexogamedev/neonnebula">GitHub code repository</a></li>
             <li><a class="project-link" href="downloads/NeonNebula1.15.zip">Download desktop version</a></li>
             <li><a class="project-link" href="downloads/NeonNebulaMobile1.19.apk">Download mobile version</a></li>

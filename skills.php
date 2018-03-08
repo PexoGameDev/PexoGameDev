@@ -76,7 +76,7 @@
                     <span style="padding-left:2em">❖ Routing and Switching Essentials</span><br>
                 So i know <i>some</i> basic stuff about networking too.
                 <br><br>
-                <i style="font-size:0.9em">Except for all things mentioned I, obviously, know Jujutsu, Karate, Aikido, Taekwondo and some more Asian words ;)</i>
+                <i style="font-size:0.9em">Except for all things mentioned I, obviously, know Jujutsu, Karate, Aikido, Taekwondo and some more scary soudning words! ;)</i>
             </p>
     </div>
 </div>
