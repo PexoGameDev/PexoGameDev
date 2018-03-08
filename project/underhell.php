@@ -25,7 +25,7 @@
 <div class="main">
     <div class="content">
         <h2 style="margin:0">Underhell</h2>
-        <h4 style="margin:5px">Rougelike, side-scrolling, action game. </h4>
+        <h4 style="margin:5px">Rougelike side-scrolling platformer action game. </h4>
         
         <div class="tagbar">
         <div class="tag">Desktop</div>

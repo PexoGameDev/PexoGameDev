@@ -25,7 +25,7 @@
 <div class="main">
     <div class="content">
         <h2 style="margin:0">They Stole My Stuff</h2>
-        <h4 style="margin:5px">Stealth-like, hide&seek AI playground. </h4>
+        <h4 style="margin:5px">Stealth-like hide&seek AI playground. </h4>
         
         <div class="tagbar">
             <div class="tag">Unity</div>

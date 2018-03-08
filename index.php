@@ -58,7 +58,7 @@
                 <h3 class="label">#3 Lublin 1617</h3>
             </div>
             <div class="desc">
-                Point'n'click adventure about mystical history of Lublin city.
+                Point'n'click adventure about mystical history of Lublin.
                 <a href="project/l1617.php" class="morebutton">More ►</a>
             </div>
         </div>
@@ -69,7 +69,7 @@
                 <h3 class="label">#5 Light Way</h3>
             </div>
             <div class="desc">
-                3D, isometric, survival shooter for Android.
+                3D isometric survival shooter for Android.
                 <a href="project/lightway.php" class="morebutton">More ►</a>
             </div>
         </div>
@@ -83,7 +83,7 @@
                 <h3 class="label">#1 Neon Nebula</h3>
             </div>
             <div class="desc">
-                Classic, 2D, Arcade, Neon <br>Space-shooter!
+                Classic 2D Arcade Neon <br>Space-shooter!
                 <a href="project/nn.php" class="morebutton">More ►</a>
             </div>
         </div>
@@ -94,7 +94,7 @@
                 <h3 class="label">#2 They Stole My Stuff</h3>
             </div>
             <div class="desc">
-                Stealth, hide&seek, AI playground.
+                Stealth hide&seek AI playground.
                 <a href="project/theystolemystuff.php" class="morebutton">More ►</a>
             </div>
         </div>

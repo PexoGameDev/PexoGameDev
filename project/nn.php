@@ -25,7 +25,7 @@
 <div class="main">
     <div class="content">
         <h2 style="margin:0">Neon Nebula</h2>
-        <h4 style="margin:5px">Classic, 2D, arcade, neon space-shooter.</h4>
+        <h4 style="margin:5px">Classic 2D arcade neon space-shooter.</h4>
         
         <div class="tagbar">
         <div class="tag">Mobile</div>

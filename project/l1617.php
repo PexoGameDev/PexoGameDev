@@ -25,7 +25,7 @@
 <div class="main">
     <div class="content">
         <h2 style="margin:0">Lublin 1617</h2>
-        <h4 style="margin:5px">Point'n'click adventure about mystical history of Lublin city. </h4>
+        <h4 style="margin:5px">Point'n'click adventure about mystical history of Lublin. </h4>
         
         <div class="tagbar">
         <div class="tag">Big Project</div>
